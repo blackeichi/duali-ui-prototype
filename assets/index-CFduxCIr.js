@@ -639,7 +639,7 @@ Please change the parent <Route path="${z}"> to <Route path="${z==="/"?"*":`${z}
   flex-direction: column;
   gap: 10px;
   background-color: white;
-`,ce=({headers:e,gap:a,height:r="100%",rightClickMenu:s,children:o})=>{const[c,f]=D.useState(!1),[m,h]=D.useState([0,0]);return g.jsxs(_5,{style:{height:r,overflow:"scroll"},onClick:()=>{s&&(f(!1),h([0,0]))},children:[g.jsx(N5,{gap:a,children:e==null?void 0:e.map(p=>g.jsx("span",{className:"whitespace-nowrap",children:p},Math.random()))}),g.jsx(L5,{onContextMenu:p=>{s&&(p.preventDefault(),h([p.pageX,p.pageY]),f(!0))},onBlur:()=>f(!1),children:o}),c&&g.jsx("div",{className:"fixed z-50 bg-white p-4 flex flex-col gap-4",style:{left:m[0],top:m[1]},onClick:p=>p.stopPropagation(),children:s()})]})},_5=gt.div`
+`,ce=({headers:e,gap:a,height:r="100%",rightClickMenu:s,children:o})=>{const[c,f]=D.useState(!1),[m,h]=D.useState([0,0]);return g.jsxs(_5,{style:{height:r,overflow:"scroll",overflowY:"hidden"},onClick:()=>{s&&(f(!1),h([0,0]))},children:[g.jsx(N5,{gap:a,children:e==null?void 0:e.map(p=>g.jsx("span",{className:"whitespace-nowrap",children:p},Math.random()))}),g.jsx(L5,{className:"noScrollBar",onContextMenu:p=>{s&&(p.preventDefault(),h([p.pageX,p.pageY]),f(!0))},onBlur:()=>f(!1),children:o}),c&&g.jsx("div",{className:"fixed z-50 bg-white p-4 flex flex-col gap-4",style:{left:m[0],top:m[1]},onClick:p=>p.stopPropagation(),children:s()})]})},_5=gt.div`
   width: 100%;
   height: 100%;
   background-color: lightgray;
