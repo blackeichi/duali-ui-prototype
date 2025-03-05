@@ -43,13 +43,13 @@ export const DeviceAdd = () => {
           height="50px"
           width="100px"
           text="취소"
-          onClick={() => navigate("/device")}
+          onClick={() => navigate("/duali-ui-prototype/device")}
         />
         <Button
           height="50px"
           width="100px"
           text="추가"
-          onClick={() => navigate("/device")}
+          onClick={() => navigate("/duali-ui-prototype/device")}
         />
       </div>
     </Frame>

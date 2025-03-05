@@ -9,10 +9,10 @@ export const Login = () => {
   return (
     <LoginWrapper>
       <div />
-      <LoginBox onSubmit={() => navigate("/")}>
+      <LoginBox onSubmit={() => navigate("/duali-ui-prototype/")}>
         <TitleBox>
           <Logo>
-            <img src="/test.webp" className="w-28 mb-2" />
+            <img src="/duali-ui-prototype/test.webp" className="w-28 mb-2" />
           </Logo>
           <LoginTitle style={{ paddingLeft: "5px", paddingBottom: "5px" }}>
             로그인

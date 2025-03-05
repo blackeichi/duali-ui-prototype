@@ -104,7 +104,7 @@ export const UserDetail = () => {
         height="40px"
         width="130px"
         text="뒤로"
-        onClick={() => navigate("/user")}
+        onClick={() => navigate("/duali-ui-prototype/user")}
       />
     </UserDetailBox>
   );

@@ -328,7 +328,7 @@ export const Device = () => {
             height="40px"
             width="40px"
             text="추가"
-            onClick={() => navigate("/device-add")}
+            onClick={() => navigate("/duali-ui-prototype/device-add")}
           />
           <Button
             height="40px"
@@ -396,7 +396,7 @@ export const Device = () => {
           height="40px"
           width="40px"
           text="수정"
-          onClick={() => navigate("/device-edit")}
+          onClick={() => navigate("/duali-ui-prototype/device-edit")}
         />
         <Button
           height="40px"

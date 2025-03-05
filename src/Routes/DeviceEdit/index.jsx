@@ -45,13 +45,13 @@ export const DeviceEdit = () => {
           height="50px"
           width="100px"
           text="취소"
-          onClick={() => navigate("/device")}
+          onClick={() => navigate("/duali-ui-prototype/device")}
         />
         <Button
           height="50px"
           width="100px"
           text="수정"
-          onClick={() => navigate("/device")}
+          onClick={() => navigate("/dduali-ui-prototype/evice")}
         />
       </div>
     </Frame>
