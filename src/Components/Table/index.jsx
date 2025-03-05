@@ -15,6 +15,7 @@ export const Table = ({
       style={{
         height,
         overflow: "scroll",
+        overflowY: "hidden",
       }}
       onClick={() => {
         if (rightClickMenu) {
@@ -31,6 +32,7 @@ export const Table = ({
         ))}
       </TableHeader>
       <TableBody
+        className="noScrollBar"
         onContextMenu={(event) => {
           if (rightClickMenu) {
             event.preventDefault();
