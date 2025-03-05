@@ -54,9 +54,6 @@ export const EventProcedure = () => {
           <Button height="40px" width="60px" text="조회" />
         </div>
       </ToolbarBox>
-      <div className="fixed right-5">
-        <Button height="40px" width="60px" text="재전송" />
-      </div>
       <Table
         headers={[
           "이벤트 발생 시간",
@@ -87,9 +84,6 @@ export const EventProcedure = () => {
           "식사일자",
         ]}
       />
-      <TableBtns>
-        <Button height="40px" width="60px" text="재전송" />
-      </TableBtns>
     </Frame>
   );
 };
