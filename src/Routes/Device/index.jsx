@@ -188,21 +188,6 @@ export const Device = () => {
               />
             </div>
           </div>
-
-          <div className="flex gap-6 mt-5">
-            <Button
-              height="40px"
-              width="80px"
-              text="취소"
-              onClick={() => setIsRecovery(false)}
-            />
-            <Button
-              height="40px"
-              width="80px"
-              text="업데이트"
-              onClick={() => setIsRecovery(false)}
-            />
-          </div>
         </ModalBox>
       </Overlay>
       <Overlay isOpen={isUpdate} setIsOpen={setIsUpdate}>
@@ -405,7 +390,6 @@ export const Device = () => {
           onClick={() => setIsTransmit(true)}
         />
         <Button height="40px" width="45px" text="재부팅" />
-        <Button height="40px" width="60px" text="히스토리" />
         <Button
           height="40px"
           width="60px"

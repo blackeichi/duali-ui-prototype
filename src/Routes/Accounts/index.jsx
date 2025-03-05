@@ -88,7 +88,7 @@ export const Accounts = () => {
           />
         </div>
       </ToolbarBox>
-      <Table headers={["이름", "계정 유형"]} />
+      <Table headers={["이름", "계정 유형"]} gap />
       <TableBtns>
         <Button
           height="40px"
