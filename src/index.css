@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NotoSans";
+  src: url("./fonts/NotoSansKR-Regular.woff2") format("woff2"),
+    url("./fonts/NotoSansKR-Regular.woff") format("woff"),
+    url("./fonts/NotoSansKR-Regular.ttf") format("truetype");
+  font-display: block;
+}
+
+input::placeholder {
+  color: black;
+}
