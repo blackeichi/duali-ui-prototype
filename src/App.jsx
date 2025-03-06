@@ -42,10 +42,20 @@ function App() {
       setTitle("사용자");
     } else if (pathname === "/duali-ui-prototype/") {
       setTitle("모니터링");
-    } else if (pathname === "/duali-ui-prototype/device-monitoring") {
-      setTitle("단말기 모니터링");
+    } else if (pathname === "/duali-ui-prototype/device") {
+      setTitle("단말기");
+    } else if (pathname === "/duali-ui-prototype/unidentified-device") {
+      setTitle("미등록 단말기");
     } else if (pathname === "/duali-ui-prototype/login") {
       setTitle("로그인");
+    } else if (pathname === "/duali-ui-prototype/report") {
+      setTitle("리포트");
+    } else if (pathname === "/duali-ui-prototype/system-log") {
+      setTitle("시스템로그");
+    } else if (pathname === "/duali-ui-prototype/event-procedure") {
+      setTitle("이벤트");
+    } else if (pathname === "/duali-ui-prototype/accounts") {
+      setTitle("계정");
     }
   }, [pathname]);
   return (
